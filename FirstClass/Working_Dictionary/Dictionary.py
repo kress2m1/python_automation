@@ -1,23 +1,28 @@
-# Dictionary items are in brackets{} in key:values pairs,seperated with "," {"k1":"v1","k2":"v2"}
+# Dictionary items are in brackets{} in key:values pairs,seperated with "," {"key1":"value1","key2":"value2"}
+# indexing will not work on key values
 print("*" * 20)
 
 Bag = {'make': 'Gucci', 'style': 'Floral', 'year': 2017}
 print(Bag)
-
-d = {}
+print(Bag['make'])
 
 Style = Bag ['style']
-
-print(Bag['make'])
 print(Style)
+Bag['handbag'] = 'stripe'
+print(Bag)
 
-d['one'] = 1
-d['two'] = 2
+print("*" * 20)
 
-print(d)
+# In this instance,we have an empty variable has been declared,now iam going to insert key:value pairs
+Car = {}
+Car['one']  = 1
+Car['two']  = 2
+Car['jeep'] = "Leather"
+print(Car)
+print("*" * 20)
 
-sum_1 = d['two'] + 8
+sum_1 = Car['two'] + 8
 print(sum_1)
-print(d)
-d['two'] = d['two'] + 8
-print(d)
+print(Car)
+Car['two'] = Car['two'] + 8
+print(Car)
