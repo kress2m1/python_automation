@@ -1,3 +1,4 @@
+# Dictionary is not sequence,nor indexing but works as key value pairs.
 # Dictionary items are in brackets{} in key:values pairs,seperated with "," {"key1":"value1","key2":"value2"}
 # indexing will not work on key values
 print("*" * 20)
@@ -10,8 +11,11 @@ Style = Bag ['style']
 print(Style)
 Bag['handbag'] = 'stripe'
 print(Bag)
+print("*#" * 40)
 
-print("*" * 20)
+
+
+
 
 # In this instance,we have an empty variable has been declared,now iam going to insert key:value pairs
 Car = {}
