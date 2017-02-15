@@ -7,3 +7,5 @@ And this git is doing my heading.
 Working_dictionary today 08/02/17.
 
 It appears git was updated last night 09/02/2017
+
+Pushed today 13/02/2017
