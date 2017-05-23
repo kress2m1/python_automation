@@ -7,3 +7,5 @@ Actions completed on 06-02-2017:
 22/05/2017: Just updated the README file on the Python project
 
 23/05/2017: Uploaded this from github
+
+23/05/2017: Created this entry from PyCharm and it needs to be merged into branch Python-00
